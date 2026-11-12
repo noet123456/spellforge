@@ -1,5 +1,8 @@
 # SpellForge — Arcane Sandbox
 
+[![Release](https://img.shields.io/github/v/release/noet123456/spellforge?label=download%20.exe)](https://github.com/noet123456/spellforge/releases/latest)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 Một sandbox phép thuật viết bằng **Python + Pygame**. Bạn không bấm nút để dùng phép có sẵn: bạn **viết phép bằng một ngôn ngữ nhỏ, nghiêm ngặt kiểu logic**, rồi ném nó ra thế giới vật lý để xem chuyện gì xảy ra.
 
 - Thế giới mô phỏng dạng ô (falling-sand): nước, dầu, axit, lửa, băng, dung nham, hơi nước… tương tác với nhau.
@@ -20,7 +23,8 @@ Một sandbox phép thuật viết bằng **Python + Pygame**. Bạn không bấ
 Yêu cầu: **Python 3.10+** (đã kiểm tra với 3.12.10), `pygame`, `numpy`.
 
 ```powershell
-cd E:\OPCode\spellforge
+git clone https://github.com/noet123456/spellforge.git
+cd spellforge
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
