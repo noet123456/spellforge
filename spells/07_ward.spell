@@ -1,0 +1,10 @@
+# Defence: a personal barrier that eats hostile projectiles.
+spell Ward {
+  mana 75
+  cooldown 2.0
+  desc "A humming arcane barrier that blocks incoming bolts."
+
+  cast {
+    shield arcane radius=2.4 life=8 power=1.0
+  }
+}

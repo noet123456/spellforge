@@ -1,0 +1,14 @@
+# Lightning: chains through wet targets and water.
+spell Arclance {
+  mana 105
+  cooldown 0.95
+  desc "A spear of lightning that arcs through everything in a line."
+
+  cast {
+    beam lightning length=22 width=0.9 power=1.3 {
+      on hit {
+        burst lightning radius=1.4 power=0.8
+      }
+    }
+  }
+}

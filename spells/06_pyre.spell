@@ -1,0 +1,10 @@
+# A lingering field. Fire orbs keep igniting things that wander in.
+spell Pyre {
+  mana 65
+  cooldown 1.5
+  desc "Leaves a burning pyre on the ground."
+
+  cast {
+    orb fire radius=2.8 life=4.5 power=0.9 offset=6
+  }
+}

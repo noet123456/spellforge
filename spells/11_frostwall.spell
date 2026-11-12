@@ -1,0 +1,10 @@
+# A wall of ice. Lasts long enough to matter, then melts.
+spell Frostwall {
+  mana 85
+  cooldown 2.4
+  desc "Raises a barricade of ice that slowly melts."
+
+  cast {
+    wall ice length=9 height=3 life=20 offset=3
+  }
+}

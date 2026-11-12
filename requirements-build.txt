@@ -1,0 +1,2 @@
+# Build-time only: produces dist/SpellForge.exe
+pyinstaller>=6.10

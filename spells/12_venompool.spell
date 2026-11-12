@@ -1,0 +1,10 @@
+# Poison: acid eats through solids and inflicts damage over time.
+spell VenomPool {
+  mana 70
+  cooldown 1.8
+  desc "Spills a lingering pool of caustic venom."
+
+  cast {
+    orb poison radius=3.0 life=5.0 power=0.7 offset=7
+  }
+}

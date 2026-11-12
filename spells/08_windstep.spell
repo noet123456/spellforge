@@ -1,0 +1,10 @@
+# Movement: a gust of air that launches you forward.
+spell Windstep {
+  mana 60
+  cooldown 1.6
+  desc "Ride a gust of wind toward the cursor."
+
+  cast {
+    dash air power=9
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "kind": "weave",
+  "name": "Tornado",
+  "canvas": "medium",
+  "nodes": [
+    {
+      "id": 1,
+      "element": "air",
+      "x": 0.5,
+      "y": 0.23,
+      "size": 1.0
+    },
+    {
+      "id": 2,
+      "element": "air",
+      "x": 0.69286,
+      "y": 0.5,
+      "size": 1.0
+    },
+    {
+      "id": 3,
+      "element": "air",
+      "x": 0.5,
+      "y": 0.77,
+      "size": 1.0
+    },
+    {
+      "id": 4,
+      "element": "air",
+      "x": 0.30714,
+      "y": 0.5,
+      "size": 1.0
+    }
+  ],
+  "links": [
+    {
+      "src": 1,
+      "dst": 2,
+      "bend": -0.45
+    },
+    {
+      "src": 2,
+      "dst": 3,
+      "bend": -0.45
+    },
+    {
+      "src": 3,
+      "dst": 4,
+      "bend": -0.45
+    },
+    {
+      "src": 4,
+      "dst": 1,
+      "bend": -0.45
+    }
+  ]
+}

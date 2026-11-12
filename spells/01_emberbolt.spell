@@ -1,0 +1,14 @@
+# A first spell: a bolt of fire that erupts on impact.
+spell Emberbolt {
+  mana 115
+  cooldown 0.55
+  desc "A spinning ember that erupts on impact."
+
+  cast {
+    bolt fire speed=36 size=5 power=1.1 life=2.6 {
+      on hit {
+        burst fire radius=1.9 power=1.2
+      }
+    }
+  }
+}

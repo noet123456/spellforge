@@ -1,0 +1,10 @@
+# Restoration.
+spell Mend {
+  mana 55
+  cooldown 1.5
+  desc "Knits your wounds shut with a pulse of light."
+
+  cast {
+    heal amount=30
+  }
+}

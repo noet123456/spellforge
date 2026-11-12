@@ -1,0 +1,14 @@
+# Ice: freezes water and slows whatever it touches.
+spell Frostshard {
+  mana 120
+  cooldown 0.65
+  desc "A shard of glacial ice that shatters into frost."
+
+  cast {
+    bolt ice speed=42 size=4 power=0.9 life=2.2 {
+      on hit {
+        burst ice radius=1.7 power=0.8
+      }
+    }
+  }
+}

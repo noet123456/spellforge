@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+savegame.json
+tmp_*.py
+tmp_*.png
+shot_*.png
+dbg_*.png
+crop_*.png
+
+# packaging output
+build/
+dist/
+*.spec
+*.egg-info/

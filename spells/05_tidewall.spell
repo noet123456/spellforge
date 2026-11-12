@@ -1,0 +1,10 @@
+# Water: a wall of water, useful for stopping fires.
+spell Tidewall {
+  mana 70
+  cooldown 1.3
+  desc "Raises a crashing wall of water across your aim."
+
+  cast {
+    wall water length=9 height=3 offset=4
+  }
+}

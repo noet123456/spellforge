@@ -1,0 +1,10 @@
+# Earth: blunt force and solid stone.
+spell Stonefist {
+  mana 60
+  cooldown 0.8
+  desc "A fist of conjured rock slams down ahead of you."
+
+  cast {
+    burst earth radius=2.6 power=1.5 offset=5
+  }
+}
